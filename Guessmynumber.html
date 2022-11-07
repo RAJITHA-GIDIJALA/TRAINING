@@ -1,0 +1,155 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+
+body
+{
+         background-color:black;
+         font-family: 'Press Start 2P', bold;
+}
+
+
+
+.h5{
+        color:white;
+        float:right;
+        margin-top:-6%;
+        font-size:10px;
+       
+}
+
+.line{
+        width:100%; 
+        height:5px;          
+        margin-top:10%; 
+        background-color:white;
+         }
+         
+.guess{
+       margin-top:3%;
+       width:50%;
+       height:10px;
+       margin-left:28%;
+       color:white;
+       }
+         
+
+	
+.start1
+{
+	float:right;
+	width:50%;
+	height:50px;
+	color:white;
+	margin-right:-6%;
+	margin-top:8%;
+	color:white;
+}
+
+.center
+{
+	height:50%;
+	width:25%;
+}
+
+
+	
+	.button{
+	background-color:white;
+        width:130px;
+	height:50px;
+	font-weight:bold;
+	font-size:15px;	
+	font-family: 'Press Start 2P', bold;	
+	margin-top:2%;
+	margin-left:2%;	
+	}
+	
+	.inpu{
+	background-color:white;
+	margin-top:15%;
+	width:15%;
+	height:80px;
+	margin-left:13%;
+	border-color:white;
+	text-align:center;
+	color:black;
+	font-size:30px;
+	
+	}
+	
+	.check{
+	margin-left:14%;
+	margin-top:21%;
+	font-size:15px;
+	font-family:'Press Start 2P', bold;
+	background-color:white;
+	height:50px;
+	width:12%;
+	}
+	
+	.que{
+	background-color:white;
+	margin-top:-27%;
+	height:10%;
+	width:9%;
+	margin-left:43%;	
+	color:black;
+	padding:13px;	
+	}
+	h4{
+	font-size:50px;
+	margin-top:20%
+	}
+	
+	.score{
+	margin-top:-45%;
+	margin-left:60%;
+	color:white;
+	width:20px;
+	height:30px;
+	}     
+          
+                               
+</head>
+</style>
+<body>
+<div class="body">
+<button class="button" onclick="reset()">Again!</button>
+</div>
+
+
+</div>
+<div class="h5">
+<h2>(Between 1 to 20)</h2>
+</div>
+
+<div class=guess>
+<h1>Guess My Number!</h1>
+</div>
+
+<div class="line">
+</div>
+<div>
+<input  type="numeric" class="inpu"  value=" " />
+</div>
+<div class="que">
+<center><h4>?</h4></center>
+
+</div>
+<button class="check" onclick="check()" id="rcheck">
+Check !</button>
+</div>
+
+<div class="start1">
+<h3 id="start">Start Guessing...</h3><br><br><br><br>
+
+<h3 id="score">💯Score:20</h3>
+<h3 id="high">🥇Highscore:0 </h3>
+</div>
+
+<script src="Guessmynumber.js"></script>
+
+</body>
+</html>
