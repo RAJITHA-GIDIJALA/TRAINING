@@ -1,0 +1,211 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ }
+ 
+ body
+ {
+ background-color:#042387;; 
+ }
+ 
+
+
+.login
+{
+	margin-top:25%;
+	float:right;
+	width:260px;
+	height:80px;		
+	margin-right:490px;
+	border:pink;
+	}
+	
+	button{
+	background-color:#76b5c5;
+        width:300px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:pink;	
+	}
+	
+	.modal{
+	display:block;
+	position:fixed;
+	background-color:powderblue;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	}
+	
+	.close{
+	color:
+	font-size:
+	font-weight:
+	}
+	h1
+{  
+letter-spacing: 4px;
+font-family: Tahoma, sans-serif;
+text-align: center;  
+color: black;
+font-weight: bold;
+padding:8%;   
+}
+
+   
+ .pwd
+{
+background-color:#f0f0f5;
+  float: center;
+  padding-top: 1%;
+  width:73%;
+height:10%;
+font-size:12px;
+margin-top:5%;
+border:none;
+}
+
+
+  .acc
+{
+background-color:#f0f0f5;
+font-size:12px;
+  float: center;
+  padding-top: 2%;
+  width:73%;
+height:10%;
+margin-top:-4%;
+border:none;
+}   
+
+ 
+   form
+{
+border:none;
+height:140%;
+width:44%;
+background-color:white;
+align-content:center;
+margin-left:28%;
+border-radius:4%;
+margin-top:-43px;
+border:black;
+}
+
+   input[type=button]
+{
+margin-top:-2%;
+width:72%;
+height:10%;
+background-color:#b30059;
+font-size:18px;
+border:none;
+text-align:center;
+color:white;
+margin-left:40px;
+}
+
+
+   input[type=checkbox]
+{  
+  margin-top :2%;
+  margin-left :-47%;
+  color:black;
+  font-size:10px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+}
+
+
+h5{
+font-weight:lighter 1%;
+margin-top :-7.5%;
+margin-right :-39%;
+font-size:18px;
+color:black;
+font-size:17px;
+font-weight:bold -45%;
+letter-spacing: 1px;
+}
+h4{
+margin-top:2%;
+}
+
+.headoptions
+{
+	color:#0b91de;
+	margin:10px;
+	float:left;
+	width:10%;
+	
+}
+
+.getcash
+{
+	margin-top:3%;
+	float:right;
+	width:240px;
+	height:80px;		
+	margin-right:500px
+	}
+	button{
+	background-color:#76b5c5;
+        width:230px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:none;
+	
+	}
+h3{
+color:white;
+}
+  .Deposit{
+  	margin-top:-7%;
+	float:right;
+	width:200px;
+	height:80px;
+	
+	
+	margin-right:180px
+	}
+	button{
+	background-color:#0b91de;
+        width:350px;
+	height:80px;
+	color:white;
+	font-weight:bold;
+	font-size:22px;
+	
+	}
+	
+	.total{
+	background-color:#f50561;
+	width:62%;
+	text-align:center;
+	margin-right:40px;
+	float:right;
+	margin-top:340px;
+	height:8%;
+	}
+	
+	.h5{
+	margin-top:-12%;
+	float:right;
+	margin-left:25px;
+	}
+	button:hover
+	{
+	background:#042387;
+	}
+	
+
+	
+
+	
+	
