@@ -1,0 +1,370 @@
+<html>
+<head>	
+<style>
+	*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ }
+ 
+ body
+ {
+ background-color:powderblue;
+ }
+
+.login
+{
+	margin-top:25%;
+	float:right;
+	width:260px;
+	height:80px;		
+	margin-right:490px;
+	border:pink;
+	}
+	
+	button{
+	background-color:#76b5c5;
+        width:300px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:pink;	
+	}
+	
+	
+	.close{
+	color:powderblue;
+	font-size:20px;
+	font-weight:20px;
+	}
+	
+	.wd{
+	display:none;
+	}
+	
+	.dpt{
+	display:none;
+	}
+	
+	.trans{
+	display:none;
+	}
+	headoptions
+        {
+	color:#0b91de;
+	margin:10px;
+	float:left;
+	width:10%;
+
+         }
+
+.getcash
+{
+	margin-top:3%;
+	float:right;
+	width:240px;
+	height:80px;		
+	margin-right:500px
+	}
+	button{
+	background-color:#76b5c5;
+        width:230px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:none;
+	
+	}
+h3{
+color:white;
+}
+  .Deposit{
+  	margin-top:-7%;
+	float:right;
+	width:200px;
+	height:80px;
+	
+	
+	margin-right:180px
+	}
+	button{
+	background-color:#0b91de;
+        width:350px;
+	height:80px;
+	color:white;
+	font-weight:bold;
+	font-size:22px;
+	
+	}
+	
+	
+	.h5{
+	margin-top:-10%;
+	float:right;
+	margin-left:25px;
+	}
+	
+	button:hover
+	{
+	background:#042387;
+	}
+
+       .wd,.dpt,.trans{
+         margin-top:20px;
+         height:20px;
+	width:30px;
+        color:black;
+	}
+	
+	.wd{
+	display:none;
+	}
+	
+	.try{
+	display:none;
+	}
+	
+	.catch{
+	display:none;
+	}
+	
+	
+        </style>
+	</head>
+	<body>	
+	<div class="login">	
+       <button type="submit" id="Log" onclick="LOGIN()">LOGIN</button><br><br>
+       <br>                                           
+       </div> 
+       
+       
+       <div class="try">
+       <form>   
+       <h1>LOGIN  NOW</h1><br>     
+        
+         <input type="Account Number"   class="acc"  placeholder=" ENTER ACCOUNTNUMBER" name="Account Number"required><br>    
+        <input type="text"  class="pwd" name="Password"required placeholder=" ENTER PASSWORD"><br><br>
+        <label><input type="checkbox"   name="Password"required value=" Password">REMEMBER ME</label<br><br><br>
+       <h5>FORGOT PASSWORD</h5><br>  
+       <input type="button" value="LOGIN" onclick="Options()" ><br><br>
+       <h4>#YOU DO NOT HAVE ACCOUNT<a href="#">Register</a></h4><br><br><br><br><br><br>         
+</form>
+</div>
+
+
+<div class="catch">
+<div class="body">
+<h1>ATM</h1><br><br><br></div>
+
+<div class="h5">
+<h2>LOGOUT</h2>
+</div>
+
+<div class="headoptions">
+<h2>Welcome</h2>
+<h3>Rajitha</h3>
+<h2>Account#1</h2>
+<h3>$2.380</h3>
+</div><br><br>
+
+<div class="choice">
+<button onclick="wdraw()">Withdraw</button><br><br>
+<button onclick="tra()">Transactions</button><br><br> 
+<button onclick="dpst()">Deposit</button><br><br>
+</div>
+</div>
+
+<div class="wd">
+<h1>WITHDRAW</h1>
+<input type="numeric" id="wd1" >
+<button id="wd2">WITHDRAW</button>   
+</div>
+
+<div class="dpt">
+<h1>DEPOSIT</h1>
+<input type="numeric" id="dpt1">
+<button id="dpt4"> Deposit</button>
+</div>
+
+<div class="trans">
+<h1>TRANSACTIONS</h1>
+<input type="numeric" id=trans1>
+<button id="trans2" onclick="transac1()">TRANSACTIONS</button>
+</div>
+
+    
+       <script>
+
+	var account=[123,456];
+	var password=[1,2];
+	var balance=[1000,2000];
+	
+    	var ac=document.querySelector(".acc");
+        var pd=document.querySelector(".pwd");
+        var firstlogin= document.getElementById("Log");
+        var form=document.querySelector(".try");
+        var web=document.querySelector(".catch");
+        var draw=document.querySelector(".wd");	
+       var drawclose=document.querySelector("#wd2")
+        var wdraw3=document.querySelector(".wd1");
+	var dpst3=document.querySelector(".dpt");
+	var dptclose=document.querySelector("#dpt4");
+	var tra3=document.querySelector(".trans");
+//	var withdrawal=document.querySelector("");
+	
+	 
+       	function LOGIN()
+          {
+          firstlogin.style.display = "none";
+          form.style.display ="block";
+          }         
+          
+          
+          function Options()          
+          {
+          var acc=document.querySelector(".acc").value;
+	var pwd=document.querySelector(".pwd").value;
+          if(acc==account[0] || acc==account[1])
+          {
+          if(pwd==password[0] || pwd==password[1] )
+          {                     
+           web.style.display="block";
+          form.style.display = "none";        
+           } 
+           else{
+           alert("Invalid details");
+           }          
+           }
+           }
+          
+ 
+ 
+	function wdraw()
+	{
+	  web.style.display="none";
+	  draw.style.display="block";	  	
+	}
+
+	function dpst()
+	{
+	  web.style.display="none";
+	  dpst3.style.display="block";	
+	  }
+	   dptclose.addEventListener('click',function()
+                  {
+                  
+                  alert(`your current balance is: ${balance[0]}+=`);
+           web.style.display="block";
+	  dpst.style.display="none";	} );
+	
+
+	
+	function tra()
+	{
+           web.style.display="none";
+	  tra3.style.display="block";
+	}
+
+            drawclose.addEventListener('click',function()
+                  {
+                  
+                  alert(`your current balance is: ${balance[0]}-=`);
+           web.style.display="block";
+	  draw.style.display="none";	} );
+	/*function wdraw1()
+	{
+	if(amount>wdraw3){
+	alert("sufficient");
+	web.style.display="block";
+	draw.style.display="block";
+document.querySelector("#wd2").addEventListener("click",function(){														document.querySelector(".catch").style.display="block"});
+	}
+	}*/
+
+	function deposit1()
+	{
+	amount+=parseInt(dpt3);
+	alert(amount);
+	document.querySelector("#dpt2").addEventListener("click",function(){				document.querySelector(".catch").style.display="block"});
+	}
+
+
+	function transac1()
+	{
+	if(amount>wdraw3)
+	{
+	alert("sufficient");
+	}
+	else
+	{
+	alert("insufficient");
+	}
+	}
+
+
+var amount=0
+var transactionWithdraw="";
+var transactionHistory=[];
+var transactiontype="";
+var depositShow=0;
+var withdraws=0;
+var transactionDeposit=document.getElementById("trans2").value;
+var transaction;
+
+function userdpt()
+{
+	depositShow=parseInt(document.getElementById("dpt4").value);
+ 	accountBalance+=depositShow;
+ 	alert(DepositAmount+"depositShow");
+        transactionHistory.push(transactionDeposit);
+        balanceCheck.innerHTML=balance;
+        balenpage.style.display="block";
+   }
+   
+   
+   function userWithdraw()
+   {
+   withdrawShow=document.getElementById("").value;
+   balance-=withdrawShow;
+   alert(balance);
+   transactionWithdraw={Transactiontype:"withdraw",amount:+withdrawShow,Accountbalance:+balance};
+   transactionHistory.push(transactionWithdraw);
+   console.log(transactionwithdraw);
+   balancecheck.style.display="block";
+   }
+   
+   tra3.addEventListener("click",transaction1);
+   var printingoptions=[];
+   
+   function transaction1()
+   {
+   for(var i=0;i<transaction.length;i++)
+   {
+   var tdata=document.getElementByTagName("tr");
+   printingoptions += `<tr>
+<td>${i+1}</td>
+<td>${(transactionHistory[i].transactiontype)}</td>
+<td>${(transactionHistory[i].Amount)}</td>
+<td>${(transactionHistory[i].AccountBalance)}</td>
+</tr>`
+
+console.log(printingoptions);
+console.log(transactionHistory[i].transactiontype);
+document.getElementById("tablebody").innerHTML= printingoptions;
+
+if(transactionHistory[i].Transactiontype){
+tdata[i].style.colr="red";
+}
+else
+{
+tdata[i].style.color="green";
+}
+} 
+}
+  
+ 
+     </script>    
+     </body>
+     </html>
