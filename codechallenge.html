@@ -1,0 +1,543 @@
+<html>
+<head>	
+<style>
+	*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ }
+ 
+ body
+ {
+ background-color:powderblue;
+ }
+  
+ .pwd
+{
+background-color:#f0f0f5;
+  float: center;
+  padding-top: 1%;
+  width:73%;
+height:15%;
+font-size:20px;
+margin-top:-40%;
+border:none;
+margin-left:14%;
+}
+
+
+  .acc
+{
+background-color:#f0f0f5;
+font-size:20px;
+  float: center;
+  padding-top: 0%;
+  width:73%;
+height:13%;
+margin-top:-55%;
+border:none;
+margin-left:14%;
+
+}   
+
+ 
+   form
+{
+border:none;
+height:55%;
+width:44%;
+background-color:white;
+align-content:center;
+margin-left:28%;
+border-radius:4%;
+margin-top:120px;
+border:black;
+}
+
+   input[type=button]
+{
+margin-top:-22%;
+width:73%;
+height:15%;
+background-color:#b30059;
+font-size:18px;
+border:none;
+text-align:center;
+color:white;
+margin-left:14%;
+}
+
+
+   input[type=checkbox]
+{  
+  margin-top :2%;
+  margin-left :-47%;
+  color:black;
+  font-size:10px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+}
+
+
+h5{
+font-weight:lighter 1%;
+margin-top :-7.5%;
+margin-right :-39%;
+font-size:18px;
+color:black;
+font-size:17px;
+font-weight:bold -45%;
+letter-spacing: 1px;
+}
+
+h4{
+margin-top:2%;
+}
+
+log{
+display:none;
+}
+
+
+.login
+{
+	margin-top:25%;
+	float:right;
+	width:260px;
+	height:80px;		
+	margin-right:490px;
+	border:pink;
+		
+	}
+	
+	button{
+	background-color:#76b5c5;
+        width:300px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:pink;
+	margin-right:80px;
+	padding:20px;	
+	}
+	
+	.logout
+        {
+	margin-top:1%;
+	float:left;
+	width:30px;
+	height:50px;		
+	margin-left:12px;
+	border:red;		
+	}
+	
+	button{
+	background-color:#76b5c5;
+        width:30px;
+	height:50px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:pink;
+	margin-left:50px;	
+	}
+	
+	.close{
+	color:powderblue;
+	font-size:20px;
+	font-weight:20px;
+	}
+	
+	.wd{
+	display:none;
+	}
+	
+	.dpt{
+	display:none;
+	}
+	
+	.trans{
+	display:none;
+	}
+	headoptions
+        {
+	color:#0b91de;
+	margin:10px;
+	float:left;
+	width:10%;
+
+         }
+
+.getcash
+{
+	margin-top:3%;
+	float:right;
+	width:240px;
+	height:80px;		
+	margin-right:500px
+	}
+	button{
+	background-color:#76b5c5;
+        width:230px;
+	height:90px;
+	color:blue;
+	font-weight:bold;
+	font-size:22px;	
+	border:none;	
+	}
+	
+	h3{
+        color:white;
+             }
+             
+.Deposit{
+  	margin-top:-7%;
+	float:right;
+	width:200px;
+	height:80px;
+	margin-right:180px
+	}
+	button{
+	background-color:#0b91de;
+        width:250px;
+	height:80px;
+	color:white;
+	font-weight:bold;
+	font-size:22px;
+	margin-left:50px;
+	}
+	
+	
+	.h5{
+	margin-top:-10%;
+	float:right;
+	margin-left:25px;
+	}
+	
+	button:hover
+	{
+	background:#042387;
+	}
+
+       .wd,.dpt,.trans{
+         margin-top:20px;
+         height:20px;
+	width:30px;
+        color:black;
+	}
+	
+	.wd{
+	display:none;
+	}
+	
+	.try{
+	display:none;
+	}
+	
+	.catch{
+	display:none;
+	}
+	
+	.box{
+	width:40px;
+	
+	
+	}
+
+.p1{
+background-color:powderblue;
+display:none;
+margin-top:4%;
+}
+
+.p2{
+color:black;
+}
+
+.td{
+width:20px;
+color:pink;
+padding:10px;
+}
+
+.tr{
+width:20px;
+color:black;
+padding:10px;
+margin-left:50px;
+}
+
+tbody,th,td,thead{
+color:blue;
+text-align:center;
+border: 1px solid black;
+}
+
+.p2{
+width:90%;
+margin-top:-5%;
+}
+
+th{
+width:30%;
+}
+
+ .head
+{  
+letter-spacing: 4px;
+font-family: Tahoma, sans-serif;
+text-align: center;  
+color: black;
+font-weight: bold;
+margin-left:50px;
+margin-top:20px;   
+}	
+	
+	
+        </style>
+	</head>
+	<body>	
+	<div class="login">	
+       <button type="submit" id="Log" onclick="LOGIN()">LOGIN</button><br><br>
+       <br>                                           
+       </div> 
+       
+       
+       <div class="try">
+       <form>             
+                 <input type="numeric"   class="acc"  placeholder=" ENTER ACCOUNTNUMBER" name="Account Number"required><br>    
+      	         <input type="password"  class="pwd" name="Password"required placeholder=" ENTER PASSWORD"><br><br>
+                 <input type="button"  value="LOGIN" onclick="Options()" ><br><br>
+                 <div class="logout">
+                 <button type="submit"  value="LOGOUT" onclick="LOGIN()"> LOGOUT</button>    
+                 </div>           
+</form>
+</div>
+
+
+<div class="catch">
+<div class="body">
+<h1>ATM</h1><br><br><br></div>
+
+<div class="h5">
+<h2>LOGOUT</h2>
+</div>
+
+<div class="headoptions">
+<h2>Welcome</h2>
+<h3>Rajitha</h3>
+<h2>Account#1</h2>
+<h3>$2.380</h3>
+</div><br><br>
+
+<div class="choice">
+<button onclick="wdraw()">Withdraw</button><br><br>
+<button onclick="tra()" id="t1">Transactions</button><br><br> 
+<button onclick="dpst()">Deposit</button><br><br>
+</div>
+</div>
+
+<div class="wd">
+<h1>WITHDRAW</h1>
+<input type="numeric" id="wd1" >
+<button id="wd2">WITHDRAW</button> 
+<div class="box">
+<button onclick="back()">Back</button>  
+</div>
+</div>
+
+<div class="dpt">
+<h1>DEPOSIT</h1>
+<input type="numeric" id="dpt1">
+<button id="dpt4"> Deposit</button>
+<div class="box">
+<button onclick="back()">Back</button>
+</div>
+</div>
+
+<div class="p1">
+<button id="dpt9" onclick="show(1)">DEPOSIT</button>
+<button class="dpt10" onclick="show()">WITHDRAW</button>
+
+<table class="p2">
+<thead>
+<tr>
+<th>SNo.</th>
+<th>Type</th>
+<th>Amount</th>
+<th>Balance</th> 
+</tr>
+</thead>
+<tbody class="tbody" id="tb1">
+</tbody>
+</table>
+<button id="tra4">CLOSE</button>
+</div>
+
+    
+       <script>
+
+	var account=[123,456];
+	var password=[1,2];
+	var balance=[1000,2000];
+	var transactionHistory=[];	
+    	var ac=document.querySelector(".acc");
+        var pd=document.querySelector(".pwd");
+        var firstlogin= document.getElementById("Log");
+        var form=document.querySelector(".try");
+        var web=document.querySelector(".catch");
+        
+        var transac=document.querySelector("#tra4");
+	var p3=document.querySelector(".p1");
+        var draw=document.querySelector(".wd");	
+        var wdraw3=document.querySelector(".wd1");
+	var dpst3=document.querySelector(".dpt");
+	var dptclose=document.querySelector("#dpt4");
+	
+	var tra3=document.querySelector(".trans");
+	var wd5=document.querySelector("#wd1");
+	var dpt5=document.querySelector("#dpt1");
+	var wdclose=document.querySelector("#wd2");
+	var p0=document.querySelector(".p1");
+        var tbody=document.querySelector(".tbody");
+        var id=document.querySelector("#dpt9");
+
+
+        function LOGIN()
+          {
+          firstlogin.style.display = "none";
+          form.style.display ="block";
+          }     
+          
+          
+          function logout()
+          {
+          firstlogin.style.display = "block";
+          form.style.display ="none";        
+          }    
+          
+           function back()
+           {
+           web.style.display="block";
+	   dpst3.style.display="none";
+	   draw.style.display="none";
+           }
+                        
+                   
+          function Options()          
+          {
+          var acc=document.querySelector(".acc").value;
+	  var pwd=document.querySelector(".pwd").value;
+          if(acc==account[0] && pwd==password[0]|| acc==account[1] && pwd==password[1])
+          {        
+          web.style.display="block";
+          form.style.display ="none";                
+           }                      
+           else{
+           alert("invald details");                  
+           }
+           }
+           
+           
+          function wdraw()
+	   {
+	   web.style.display="none";
+	   draw.style.display="block";	  	
+	   }
+	    wdclose.addEventListener('click',function()
+                  {
+                   var wdrawshow=document.querySelector("#wd1").value;
+                   if(wdrawshow<=balance[0])
+                     {
+                      balance[0]-=wdrawshow;   
+                      var trawdr={transactionType:"withdraw", AMOUNT:wdrawshow, balance:balance[0]};
+                      transactionHistory.push(trawdr);            
+                      alert(`your current balance is:${balance[0]}`);
+           	      web.style.display="block";
+	  	      draw.style.display="none";
+	  	        }
+	  	    else
+	  	      {
+	  	         alert(`your current balance is ${balance[0]}
+	  	         please withdraw lesser amount`)
+	  	          }
+	  	      });	
+
+
+	function dpst()
+	{
+	  web.style.display="none";
+	  dpst3.style.display="block";	
+	  }
+	   dptclose.addEventListener('click',function()
+                  {                  
+                   var depositshow=parseInt(document.querySelector("#dpt1").value);
+                   balance[0]+=depositshow;
+                   var tradpt={transactionType:"deposit", AMOUNT:depositshow, balance:balance[0]};
+                   transactionHistory.push(tradpt);
+                   alert(`your current balance is: ${balance[0]}`);
+                   web.style.display="block";
+	           dpst3.style.display="none";});
+	  
+	
+	function tra()
+	{	
+             p0.style.display="block";
+             web.style.display="none";
+             var transaction="";
+             var i=0;
+             var tdata="";
+             for(var i=0;i<transactionHistory.length;i++)
+             {  
+                tdata += `<tr>
+		<td>${i+1}</td>
+		<td>${(transactionHistory[i].transactionType)}</td>
+		<td>${(transactionHistory[i].AMOUNT)}</td>
+		<td>${(transactionHistory[i].balance)}</td>
+		</tr>`
+		document.getElementById("tb1").innerHTML=tdata;
+	    }
+		console.log(tdata);
+        }
+
+         transac.addEventListener('click',function()
+        {
+         p0.style.display="none";
+         firstlogin.style.display = "block";       
+     });
+     
+    
+
+
+function show(type)
+{ 
+                    var transaction="";
+                    var i=0;
+                    var tdata="";      
+               if(type==1)
+               {   
+               if(transactionHistory[i].transactionType)  
+                                 
+                   for(var i=0; i<transactionHistory.length; i++)
+             {  
+                tdata += `<tr>
+		<td>${i+1}</td>
+		<td>${(transactionHistory[i].transactionType)}</td>
+		<td>${(transactionHistory[i].AMOUNT)}</td>
+		<td>${(transactionHistory[i].balance)}</td>
+		</tr>`			
+	    }
+	   	    document.getElementById("tb1").innerHTML=tdata;
+           }               
+	   
+	           else if(type == 2)
+	         {
+	         	         alert("hii");
+	         	        }
+	         	        }
+	           
+     </script>    
+     </body>
+     </html>
+
