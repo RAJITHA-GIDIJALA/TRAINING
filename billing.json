@@ -1,0 +1,87 @@
+{
+"items":[
+	{	
+	"name":"idly",
+	"price":"20"
+  	},
+        {	
+	
+	"name":"chapathi",
+	"price":"30"
+	},
+	{
+	
+	"name":"puri",
+	"price":"20"
+	},
+	{
+	
+	"name":"wada",
+	"price":"20"
+	},
+	{
+	
+	"name":"veg-biryani",
+	"price":"20"
+	},
+	{
+	
+	"name":"veg-friedrice",
+	"price":"20"
+	},
+	{
+	
+	"name":"non-veg biryani",
+	"price":"20"
+	},
+	{
+	
+	"name":"chicken curry",
+	"price":"20"
+	},
+	{
+	
+	"name":"vegetable curry",
+	"price":"20"
+	}
+	{
+	
+	"name":"veg-friedrice",
+	"price":"20"
+	},
+	{
+	
+	"name":"non-veg biryani",
+	"price":"20"
+	},
+	{	
+	"name":"chicken curry",
+	"price":"20"
+	},
+	{	
+	"name":"vegetable curry",
+	"price":"20"
+	}
+	{
+	"name":"veg-friedrice",
+	"price":"20"
+	},
+	{
+	"name":"non-veg biryani",
+	"price":"20"
+	},
+	{
+	"name":"chicken curry",
+	"price":"20"
+	},
+	{
+	"name":"vegetable curry",
+	"price":"20"
+	}
+    ]
+}
+
+
+
+
+
