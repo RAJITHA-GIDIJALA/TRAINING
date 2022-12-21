@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.header{
+width:100%;
+background:#999ca1
+}
+
+
+.btn{
+width:90px;
+height:40px;
+border:none;
+font-size:20px
+}
+
+.container{
+width:100%;
+
+}
+
+.left-content{
+width:60%;
+overflow: scroll;
+float:left;
+height:60%
+}
+
+.left-content .list{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border:none;
+    height:100px;
+    width:18%;
+    margin-left:10px;
+    border-bottom: 3px solid rgb(160, 2, 252);
+    background-color: #f0edef;
+    float:left
+}
+
+.right-content{
+width:40%;
+height:100%;
+float:right
+}
+
+.clear{
+float:right;
+border:black;
+}
+
+ .number{
+	width:100%;
+	height: 30px;
+	margin: 5px -3px 20px 0px;
+	border: 1px solid lightslategray;
+}
+
+.item-name{ 
+    padding-left: 5px;
+}
+
+.item-count{   
+    padding-left: 20px;
+}
+
+.item-price{
+    padding-left: 52px;
+}
+
+.table{
+    overflow: scroll;
+    height: 385px;    
+    width: 100%;
+}
+
+th,td{
+    padding-left: 30px;
+    border-bottom:1px  solid  grey;
+    padding: 5px 0px 5px 65px;
+}
+
+tr{
+   padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    background:white
+}
+
+
+.order{
+	height:50px;
+	width:200px;
+	background:blue;
+	color:white;
+	text-align:center;
+	margin-left:50px;
+	padding:15px
+}
+
+.payment{
+	height:50px;
+	width:200px;
+	background:green;
+	color:white;
+	text-align:center;
+	margin-left:90px;
+	padding:15px
+	}
