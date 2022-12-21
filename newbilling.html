@@ -1,0 +1,63 @@
+<html>
+<head>
+<link rel="stylesheet" href="newbilling.css">
+
+</head>
+<body>
+<div class="header">
+<button type ="button" class="btn">Orders<span class="span">1 </span></button>
+<button type="button" class="btn">Current</button>
+</div>
+
+<div class="container">
+
+<div class="left-content">
+    
+</div>
+
+<div class="right-content">
+        <div class="tables">
+                  <span class="table">Table</span> <span class="num table1">5</span> <span class="table2">| Max</span>
+                  <span class="clear">Clear</span>
+        </div>                
+    <div>
+      <input type="numeric" class="number">
+    </div>
+    
+
+<div class="table">
+<table>
+
+               <thead>
+                    <th class="item-name">item</th>
+                    <th class="item-count">quantity</th>
+                    <th class="item-price">price</th>
+                 </thead>
+
+               <tbody id="tableid">
+                </tbody>
+
+                  <tr>
+                  <td class="table-display">discount</td>
+                  <td><input type="numeric" class="quantity1 quantity"></td>
+                  <td id="discountid"></td>
+                 </tr>
+
+                 <tr>
+                  <td class="table-display">Taxes</td>
+                  <td class="table-display"><input type="numeric" class="quantity"></td>
+                  <td id="taxesid"></td>
+                 </tr>
+ </table>
+ </div>
+
+<div class="footer">
+
+                <div class="order">Order Ticket</div>
+                <div class="payment">Charge RS</div>
+</div>
+</div>
+<script src="newbilling.js"></script>
+</body>
+</html>
+
