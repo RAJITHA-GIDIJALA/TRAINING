@@ -1,0 +1,45 @@
+{
+    "services":[
+       {
+        "image":"images/services1.png",
+"service_name":"UX Design",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{ "image":"/home/feuji/Desktop/CMS/images/services2.png",
+"service_name":"Game Design",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+"image":"/home/feuji/Desktop/CMS/images/services3.png",
+"service_name":"Graphic Design",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+   "image":"/home/feuji/Desktop/CMS/images/services4.png",
+"service_name":"Web Design",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+"image":"/home/feuji/Desktop/CMS/images/services5.png",   
+"service_name":"App Development",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+"image":"/home/feuji/Desktop/CMS/images/services6.png",
+"service_name":"Digital Marketing",
+"status":"active",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+}
+]
+}

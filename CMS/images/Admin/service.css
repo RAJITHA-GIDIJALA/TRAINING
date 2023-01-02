@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.container{
+    display:flex;
+    background:#B8BEC3
+}
+
+.left{
+    width:25%;
+    background:#B8BEC3;
+    }
+
+.logo{
+        padding: 20px;
+        float:left;        
+        text-align: center;
+        margin-left:35px
+        }
+
+
+.image{
+    width:30px;
+     }
+
+.right{
+    background:#bfbdb6;
+    width:75%;
+}
+
+.list{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size:25px;
+      margin-left:50px;
+    margin-top:90px; 
+    padding:50px ;
+    line-height:80px   
+      }
+ 
+.list h3{
+margin-top: 30px;
+}
+
+li a{
+color:black;
+list-style-type:none;
+}
+
+li a:hover{
+    color: #FF5300;
+}
+
+li:hover{
+    color: #FF5300;
+       }
+
+       th{
+        margin-top:30px;
+    padding:20px;
+    background: #7B7B7B;
+    border: 1px solid black;
+       }
+
+td{
+    
+    height:50px;
+    text-align:center;
+    background:#E1E6E8;
+    border: 1px solid black;
+    }
+
+tr{
+    width:30%;
+    text-align:center;      
+    border: 2px solid black;
+}
+
+.button{
+    width:100px;
+    border:none;
+    background:#E1E6E8;
+   }
+
+
+.add{
+background-color:hsla(189, 68%, 77%, 0.726);
+border-radius: 20px rgb(97, 93, 93);
+
+
+}
+    /*  ------- form-------*/
+
+
+
+       .total{
+    background:powderblue;
+    border:black;
+    width:50%;
+    height:50%;
+    text-align:center;
+       }
+
+       .title{
+        height:30px;
+       
+        border-radius: 20px;
+        border-color: rgb(1, 41, 41);
+    }
+
+    .description{
+        height:30px;
+        border-radius: 20px;
+        border-color: rgb(1, 41, 41);
+
+    }
+    .design{
+        height:30px;
+        border-radius: 20px;
+        border-color: rgb(1, 41, 41);
+    }
+    .service{
+        height:30px;
+        border-radius: 20px;
+        border-color: rgb(1, 41, 41);
+    }
+    .status{
+        height:30px;
+        border-radius: 20px;
+        border-color: rgb(1, 41, 41);
+    }
+
+    
