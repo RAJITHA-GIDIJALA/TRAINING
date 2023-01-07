@@ -1,0 +1,42 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box
+}
+
+body{
+background:
+}
+
+h6{
+ letter-spacing:normal;
+ color:#7B7B7B
+}
+
+.container{
+width: 100%;
+display:flex
+}
+
+
+.row   h6{
+color:#FF5300;
+}
+
+h5{
+color:#FF5300;
+}
+
+.d-flex{
+margin-top:30px
+}
+
+.list2{
+color:#7B7B7B;
+font-weight:8px
+}
+
+.image{
+width:2px
+
+}

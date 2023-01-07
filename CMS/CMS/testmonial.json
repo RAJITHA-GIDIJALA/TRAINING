@@ -1,0 +1,103 @@
+{
+"testimonial":[
+    {
+      "id":1,
+      "rating":"/home/feuji/Desktop/CMS/bscms/IMAGES/Component 1.png",
+      "content":"Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+      "profileImage":"/home/feuji/Desktop/CMS/bscms/Image.svg",
+      "profileName":"Phillip Levin",
+      "Designation":"CEO/ Creative IT",
+      "doubleQuotes":"/home/feuji/Desktop/CMS/bscms/double-quotes-l.png"
+    },
+
+    {
+      "id":2,
+      "rating":"/home/feuji/Desktop/CMS/bscms/Component 1.png",
+      "content":"Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+      "profileImage":"/home/feuji/Desktop/CMS/bscms/Image.svg",
+      "profileName":"Lincoln Lipshutz",
+      "Designation":"CEO / Creative IT",
+      "doubleQuotes":"/home/feuji/Desktop/CMS/bscms/double-quotes-l.png"
+    },
+
+    {
+      "id":3,
+      "rating":"/home/feuji/Desktop/CMS/bscms/Component 1.png",
+      "content":"Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+      "profileImage":"/home/feuji/Desktop/CMS/bscms/Image.svg",
+      "profileName":"Craig Siphron",
+      "Designation":"CEO / Creative IT",
+      "doubleQuotes":"/home/feuji/Desktop/CMS/bscms/double-quotes-l.png"
+    }
+    
+  ],
+    
+  
+     "services":[
+        {
+"image":"/home/feuji/Desktop/CMS/images/services1.png",
+"img":"/home/feuji/Desktop/CMS/images/01.png",
+"service_name":"UX Design",
+ "designs":"mobile app ,web design",
+ "description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+ { "image":"/home/feuji/Desktop/CMS/images/services2.png",
+ "img":"/home/feuji/Desktop/CMS/images/02.png",
+"service_name":"Game Design",
+ "designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+"image":"/home/feuji/Desktop/CMS/images/services3.png",
+"img":"/home/feuji/Desktop/CMS/images/03.png",
+"service_name":"Graphic Design",
+ "designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+ },
+{
+    "image":"/home/feuji/Desktop/CMS/images/services4.png",
+    "img":"/home/feuji/Desktop/CMS/images/04.png",
+ "service_name":"Web Design",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+    "image":"/home/feuji/Desktop/CMS/images/services5.png",
+    "img":"/home/feuji/Desktop/CMS/images/05.png",
+"service_name":"App Development",
+"designs":"mobile app ,web design",
+ "description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+},
+{
+"image":"/home/feuji/Desktop/CMS/images/services6.png",
+"img":"/home/feuji/Desktop/CMS/images/06.png",
+"service_name":"Digital Marketing",
+"designs":"mobile app ,web design",
+"description":"Lorem ipsum dolor sit amet,consec tetur adipiscing elit.Accumsan sed faucibus augue.Cras ut."
+}
+],
+   "pics":[
+   {
+     "img_url1":"/home/feuji/a/Image.svg",
+     "img_url2":"/home/feuji/a/Image123.svg",
+     "img_url3":"/home/feuji/a/Image123.svg",
+     "id":1
+     },
+     {
+     "img_url1":"/home/feuji/a/Image.svg",
+     "img_url2":"/home/feuji/a/Image123.svg",
+     "img_url3":"/home/feuji/a/Image123.svg",
+     "id":2
+     },
+     {
+     "img_url1":"/home/feuji/a/Image.svg",
+     "img_url2":"/home/feuji/a/Image123.svg",
+     "img_url3":"/home/feuji/a/Image123.svg",
+     "id":3
+     }
+   ]
+     
+     }
+
+
+  
